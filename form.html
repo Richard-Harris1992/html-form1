@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <h1>Form:</h1>
+
+    <form action="" method="post">
+        <fieldset>
+            <legend>Add User:</legend>
+
+            <div>
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" id="firstname">
+            </div>
+
+            <div>
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" id="lastname">
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div>
+                <label for="Status">Status</label>
+                <select id="Status">
+                    <option value="student">Student</option>
+                    <option value="instructor">Instructor</option>
+                    <option value="guest">Guest</option>
+                </select>
+            </div>
+
+            <p>Choose your favorite programming language:</p>
+            <input class ="html" type="radio" name="lang">HTML</input>
+            <input class="css" type="radio" name="lang">CSS</input>
+            <input class="javascript" type =radio name="lang">JavaScript</input> 
+
+            <div>
+                <label for="comments">Comments</label>
+                <textarea id="comments" name="comments" id="comments" rows="10" cols="30">
+                It was a dark and stormy night
+                </textarea>
+            </div>
+
+            <div>
+                <label for="date">Date</label>
+                <input type="date" name="date" id="date">
+            </div>
+
+            <div>
+                <input class="newsletter" type="checkbox">Sign up for newsletter</input>
+                <input class="terms" type="checkbox">Agree to terms and conditions</input>
+                <button class="submit" type="button">Submit</button>
+            </div>
+
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>
